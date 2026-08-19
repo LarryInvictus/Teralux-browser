@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Teralux Browser</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div class="top-left">
+        <span class="brand">Teralux</span>
+      </div>
+      <div class="top-right">
+        <button class="top-btn" id="settingsBtn">Settings</button>
+      </div>
+    </header>
+
+    <main class="center">
+      <!-- Logo above search bar -->
+      <img src="teralux.png" alt="Teralux Logo" class="logo" />
+
+      <form id="searchForm" class="search-form">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search with Teralux"
+            autocomplete="off"
+          />
+        </div>
+        <div class="buttons">
+          <button type="submit" class="search-btn">Teralux Search</button>
+          <button type="button" class="search-btn" id="luckyBtn">
+            I'm Feeling Lucky
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <span class="footer-text">Teralux browser · Powered by Teralux</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+            </html>
